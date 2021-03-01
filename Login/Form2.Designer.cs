@@ -39,14 +39,14 @@ namespace Login
             // metroButton1
             // 
             this.metroButton1.BackColor = System.Drawing.Color.Black;
-            this.metroButton1.Location = new System.Drawing.Point(93, 105);
+            this.metroButton1.Location = new System.Drawing.Point(95, 105);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(75, 23);
             this.metroButton1.TabIndex = 6;
             this.metroButton1.Text = "Inject";
             this.metroButton1.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton1.UseSelectable = true;
-            this.metroButton1.Click += new System.EventHandler(this.metroButton1_ClickAsync);
+            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
             // 
             // metroRadioButton1
             // 

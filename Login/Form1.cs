@@ -29,8 +29,9 @@ namespace Login
         {
             var myForm = new Form2();
             myForm.Show();
-            this.Visible = false;            
+            this.Visible = false;
         }
     }
+}
 
 

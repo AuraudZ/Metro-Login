@@ -25,10 +25,12 @@ namespace Login
         {
         }
 
-        public async Task metroButton1_ClickAsync(object sender, EventArgs e)
+        private void metroButton1_Click(object sender, EventArgs e)
         {
-
-         }
+            MessageBox.Show("Does Not Work");
+        }
+    }
+}
         
 
 
